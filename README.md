@@ -11,8 +11,7 @@
 - [Twoia-Kotletochka](https://github.com/Twoia-Kotletochka)
 - [TostasMe](https://github.com/TostasMe)
 - [Spr1Igan](https://github.com/Spr1Igan)
-- [Владик]()
-## Ліцензія
+- [ppprorokkk](https://github.com/ppprorokkk)
 
 ---
 **Примітка**: Цей проект не є офіційним продуктом або частиною Apple Inc. Він призначений виключно для освітніх та дослідницьких цілей.
