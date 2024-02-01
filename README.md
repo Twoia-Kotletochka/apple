@@ -1,6 +1,6 @@
 # Аналіз веб-сайту Apple.com
 
-![Apple Logo]([link/to/apple_logo.png](https://w7.pngwing.com/pngs/121/286/png-transparent-apple-logo-computer-icons-apple-logo-company-heart-logo.png))
+![Apple Logo](https://w7.pngwing.com/pngs/121/286/png-transparent-apple-logo-computer-icons-apple-logo-company-heart-logo.png)
 
 ## Опис
 
