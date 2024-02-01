@@ -1,4 +1,4 @@
-# Аналіз веб-сайту Apple.com
+# Веб-сайт Apple.com
 
 ![Apple Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Apple_Logo.svg/30px-Apple_Logo.svg.png)
 
