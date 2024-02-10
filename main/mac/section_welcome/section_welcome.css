@@ -1,0 +1,49 @@
+.mac-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Выравнивание контента вверху */
+    padding: 70px;
+}
+
+.mac-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.mac-image {
+    margin-bottom: 20px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.mac-title {
+    display: flex;
+    margin: 0;
+    /* font-family: Inter; */
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.mac-description {
+    margin: 0;
+    /* font-family: Inter; */
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: black;
+}
+
+.description {
+    margin: 0;
+}

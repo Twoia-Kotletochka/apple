@@ -1,0 +1,36 @@
+.section-consider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.text-content-consider {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.text-content>h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-content>p {
+    font-size: 16px;
+}
+
+/* You'll need additional CSS for buttons or indicators */
