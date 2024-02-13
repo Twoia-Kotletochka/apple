@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/main/mac/nav/nav.css">
     <link rel="stylesheet" href="/main/mac/section_welcome/section_welcome.css">
     <link rel="stylesheet" href="/main/mac/section_consider/section_consider.css">
-
+    <link rel="stylesheet" href="/main/mac/section_gallery/section_gallery.css">
 </head>
 
 <body>
@@ -59,11 +59,8 @@
             <img src="/main/mac/section_welcome/section_welcome_img/section_welcome.svg" alt="Mac"
                 class="section-welcome-image">
         </div>
-
         <div class="section-consider">
-
             <p class="section-consider-title">Познайомтеся з Mac.</p>
-
             <div class="carousel">
                 <div class="carousel-container">
                     <div class="carousel-slide">
@@ -162,21 +159,48 @@
                         </div>
                     </div>
 
-                    <!--Копії-->
-
-
-                    <!--Копії-->    
+                    <!--Додати слайд-->
                 </div>
                 <div class="carousel-buttons">
-                    <button id="prevBtn"><img src="/main/mac/section_consider/section_consider_img/carousel_buttons_left.svg"></button>
-                    <button id="nextBtn"><img src="/main/mac/section_consider/section_consider_img/carousel_buttons_right.svg"></button>
+                    <button id="prevBtn"><img
+                            src="/main/mac/section_consider/section_consider_img/carousel_buttons_left.svg"></button>
+                    <button id="nextBtn"><img
+                            src="/main/mac/section_consider/section_consider_img/carousel_buttons_right.svg"></button>
                 </div>
             </div>
         </div>
+
+        <div class="section-gallery">
+            <div class="section-gallery-title-container">
+                <p class="section-gallery-title">Дізнайтеся більше про лінійку.</p>
+                <a href="#" class="section-gallery-link">Порівняйте всі моделі ></a>
+            </div>
+
+            <div class="gallery-button-panel">
+                <button class="button active" onclick="selectButton(this)">Ноутбуки</button>
+                <button class="button" onclick="selectButton(this)">Копм’ютери</button>
+                <button class="button" onclick="selectButton(this)">Дисплеї</button>
+            </div>
+
+            <div class="galleries-container">
+                <div class="product-tile1">
+                    <img src="/main/mac/section_gallery/section_gallery_img/mac_book_air_13.svg" class="img-product-tile1">
+                <p>macbookair 13</p>
+                </div>
+                <div class="product-tile1">
+                    <img src="/main/mac/section_gallery/section_gallery_img/mac_book_air_13_15.svg" class="img-product-tile2">
+                    <p>macbookair 13</p>
+                </div>
+                <div class="product-tile1">
+                    <img src="/main/mac/section_gallery/section_gallery_img/mac_book_air_14_16.svg" class="img-product-tile3">
+                    <p>macbookair 13</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-
     <script src="/main/mac/section_consider/section_consider.js"></script>
+    <script src="/main/mac/section_gallery/section_gallery.js"></script>
 </body>
 
 </html>
