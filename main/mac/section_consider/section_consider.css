@@ -15,8 +15,10 @@
 }
 
 .carousel {
-    position: relative;
-
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .carousel-container {
@@ -26,35 +28,48 @@
 
 .carousel-slide {
     margin: 10px;
-    /* Adjust the height as per your content */
-    height: 300px;
-    /* Your styling here */
 }
 
-.carousel-buttons {
-    text-align: center;
-    padding-top: 20px; /* Расстояние между слайдером и кнопками */
+.carousel .carousel-buttons {
+    text-align: right;
+    /* padding-top: 20px; */
+    /* Distance between the slider and the buttons */
+
+    width: 100%;
+    bottom: 0;
 }
 
-.carousel-buttons button {
+.carousel .carousel-buttons button {
     background: none;
     border: none;
-    font-size: 2rem; /* Размер символов "<" и ">" */
+    font-size: 2rem;
+    /* Size of "<" and ">" symbols */
     cursor: pointer;
-    padding: 10px; /* Пространство вокруг символов "<" и ">" */
-    margin: 0 5px; /* Расстояние между кнопками */
-    color: #333; /* Цвет символов "<" и ">" */
+    padding: 10px;
+    /* Space around "<" and ">" symbols */
+    margin: 0 5px;
+    /* Distance between buttons */
+    color: #333;
+    /* Color of "<" and ">" symbols */
 }
 
-.carousel-buttons button:hover {
-    color: #888; /* Цвет кнопок при наведении */
+.carousel .carousel-buttons button:hover {
+    color: #888;
+    /* Color of the buttons on hover */
 }
 
-/* .slide img {
-    width: 10%;
 
+.carousel-slide-invisible {
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
 }
 
+.carousel-slide-visible {
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* 
 .text-content-consider {
     bottom: 20px;
     left: 20px;
