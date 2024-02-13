@@ -51,10 +51,11 @@
     /* Distance between buttons */
     color: #333;
     /* Color of "<" and ">" symbols */
+    transition: filter 0.2s ease;
 }
 
 .carousel .carousel-buttons button:hover {
-    color: #888;
+    filter: contrast(1.15);
     /* Color of the buttons on hover */
 }
 
