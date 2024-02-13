@@ -1,24 +1,61 @@
 .section-consider {
     width: 100%;
-    overflow: hidden;
 }
 
-.carousel-slides {
+.section-consider-title {
     display: flex;
+    margin: 0;
+    /* font-family: Inter; */
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: black;
+    padding-bottom: 70px;
 }
 
-.slide {
-    min-width: 100%;
-    transition: transform 0.5s ease;
+.carousel {
+    position: relative;
+
 }
 
-.slide img {
-    width: 100%;
-    display: block;
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    margin: 10px;
+    /* Adjust the height as per your content */
+    height: 300px;
+    /* Your styling here */
+}
+
+.carousel-buttons {
+    text-align: center;
+    padding-top: 20px; /* Расстояние между слайдером и кнопками */
+}
+
+.carousel-buttons button {
+    background: none;
+    border: none;
+    font-size: 2rem; /* Размер символов "<" и ">" */
+    cursor: pointer;
+    padding: 10px; /* Пространство вокруг символов "<" и ">" */
+    margin: 0 5px; /* Расстояние между кнопками */
+    color: #333; /* Цвет символов "<" и ">" */
+}
+
+.carousel-buttons button:hover {
+    color: #888; /* Цвет кнопок при наведении */
+}
+
+/* .slide img {
+    width: 10%;
+
 }
 
 .text-content-consider {
-    position: absolute;
     bottom: 20px;
     left: 20px;
     color: #fff;
@@ -31,6 +68,4 @@
 
 .text-content>p {
     font-size: 16px;
-}
-
-/* You'll need additional CSS for buttons or indicators */
+} */

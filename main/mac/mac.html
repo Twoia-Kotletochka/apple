@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="/main/mac/nav/nav.css">
     <link rel="stylesheet" href="/main/mac/section_welcome/section_welcome.css">
     <link rel="stylesheet" href="/main/mac/section_consider/section_consider.css">
+
 </head>
 
 <body>
+    <script src="/main/mac/section_consider/section_consider.js"></script>
     <nav class="nav">
         <a href="#" class="nav-item">
             <img src="/main/mac/nav/nav_img/mac_air.svg" alt="MacBook Air" class="nav-icon">
@@ -46,40 +48,111 @@
             <span class="nav-link"><span class="nav-label">Дисплеї</span></span>
         </a>
     </nav>
-
-        <div class="mac-section">
-            <div class="text-content">
-                <h1 class="mac-title">Mac</h1>
-                <div class="mac-description">
-                    <p class="description">Вы уявляєте,</p>
+    <div class="container">
+        <div class="section-welcome">
+            <div class="section-welcome-text-content">
+                <h1 class="section-welcome-title">Mac</h1>
+                <div class="section-welcome-description">
+                    <p class="description">Ви уявляєте,</p>
                     <p class="description">Mac втілює.</p>
                 </div>
             </div>
-            <img src="/main/mac/section_welcome/section_welcome_img/section_welcome.svg" alt="Mac" class="mac-image">
+            <img src="/main/mac/section_welcome/section_welcome_img/section_welcome.svg" alt="Mac"
+                class="section-welcome-image">
         </div>
 
         <div class="section-consider">
-            <div class="carousel-slides">
-                <div class="slide">
-                    <img src="slide1-image-url.png" alt="Slide 1">
-                    <div class="text-content-consider">
-                        <h2>Slide Title 1</h2>
-                        <p>Description for slide 1...</p>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="slide2-image-url.png" alt="Slide 2">
-                    <div class="text-content">
-                        <h2>Slide Title 2</h2>
-                        <p>Description for slide 2...</p>
-                    </div>
-                </div>
-               
 
+            <p class="section-consider-title">Познайомтеся з Mac.</p>
 
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_75.svg" alt="Slide 1">
+                            <div class="text-content-consider">
+                                <!-- <h2>Slide Title 1</h2>
+                                <p>Description for slide 1...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_85.svg" alt="Slide 2">
+                            <div class="text-content">
+                                <!-- <h2>Slide Title 2</h2>
+                                <p>Description for slide 2...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_92.svg" alt="Slide 3">
+                            <div class="text-content">
+                                <!-- <h2>Slide Title 2</h2>
+                                <p>Description for slide 2...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_98.svg" alt="Slide 3">
+                            <div class="text-content">
+                                <!-- <h2>Slide Title 2</h2>
+                                <p>Description for slide 2...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_98_1.svg" alt="Slide 3">
+                            <div class="text-content">
+                                <!-- <h2>Slide Title 2</h2>
+                                <p>Description for slide 2...</p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Копії-->
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_75.svg" alt="Slide 1">
+                            <div class="text-content-consider">
+                                <!-- <h2>Slide Title 1</h2>
+                                <p>Description for slide 1...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_75.svg" alt="Slide 1">
+                            <div class="text-content-consider">
+                                <!-- <h2>Slide Title 1</h2>
+                                <p>Description for slide 1...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide">
+                            <img src="/main/mac/section_consider/section_consider_img/rectangle_75.svg" alt="Slide 1">
+                            <div class="text-content-consider">
+                                <!-- <h2>Slide Title 1</h2>
+                                <p>Description for slide 1...</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--Копії-->
+
+                    <!--Додати слайди-->
+                    
+                </div>
+                <div class="carousel-buttons">
+                    <button id="prevBtn">&#60;</button>
+                    <button id="nextBtn">&#62;</button>
+                </div>
             </div>
         </div>
-
+    </div>
 </body>
 
 </html>

@@ -1,29 +1,29 @@
-.mac-section {
+.section-welcome {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     /* Выравнивание контента вверху */
-    padding: 70px;
+    padding-bottom: 70px;
 }
 
-.mac-image {
+.section-welcome-image {
     width: auto;
     max-width: 100%;
     height: auto;
 }
 
-.mac-image {
+.section-welcome-image {
     margin-bottom: 20px;
 }
 
-.text-content {
+.section-welcome-text-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 60px;
 }
 
-.mac-title {
+.section-welcome-title {
     display: flex;
     margin: 0;
     /* font-family: Inter; */
@@ -34,7 +34,7 @@
     color: black;
 }
 
-.mac-description {
+.section-welcome-description {
     margin: 0;
     /* font-family: Inter; */
     font-size: 28px;
