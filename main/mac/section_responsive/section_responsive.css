@@ -35,6 +35,10 @@
     text-align: left;
 }
 
+#accordion-button-img{
+    cursor: pointer;
+}
+
 .accordion-content {
     display: none;
     padding: 10px;
