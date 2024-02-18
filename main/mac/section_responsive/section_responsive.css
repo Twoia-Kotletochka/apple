@@ -1,0 +1,60 @@
+.section-responsive {}
+
+.section-responsive-title {
+    /* font-family: Inter; */
+    padding-top: 100px;
+    padding-bottom: 80px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.responsive-container {
+    padding-left: 100px;
+    display: flex;
+}
+
+.accordion {
+    margin-right: 100px;
+}
+
+.accordion-button {
+    color: black;
+    background: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    /* font-family: Inter; */
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    width: 300px;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Optional: Add active class to .accordion-button when its content is visible */
+.accordion-button.active {
+   
+}
+
+.accordion-button-container{
+    display: flex;
+    width: 350px;
+}
