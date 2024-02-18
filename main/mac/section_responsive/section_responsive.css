@@ -1,4 +1,6 @@
-.section-responsive {}
+.section-responsive {
+    padding-bottom: 200px;
+}
 
 .section-responsive-title {
     /* font-family: Inter; */
