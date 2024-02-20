@@ -1,0 +1,16 @@
+.section-compare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-compare-title{
+    margin: 0;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: black;
+    position: absolute;
+}
