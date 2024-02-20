@@ -1,0 +1,119 @@
+.section-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section-gallery-title {
+    margin: 0;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.section-gallery-link {
+    color: #0066CC;
+}
+
+.galleries-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.product {
+    /* display: flex; */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.product-image {
+    height: 170px;
+}
+
+.product-details {
+
+    text-align: center;
+}
+
+.product-details-color {
+    margin-bottom: 40px;
+}
+
+.product-details h2 {
+    /* font-family: Inter; */
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.product-details h3 {
+    /* font-family: Inter; */
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: black;
+    margin: 0;
+}
+
+.product-details .chip {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.product-details .description {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 30px;
+    /* font-family: Inter; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.product-details .button {
+    color: #0071E3;
+    margin: 0 5px;
+    cursor: pointer;
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product-details-line {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.description-mini {
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 40px;
+}
