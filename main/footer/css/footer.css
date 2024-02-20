@@ -3,6 +3,11 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
 }
 
 footer {
@@ -46,10 +51,6 @@ footer {
 .footer-links a {
     color: #8B8B8B;
     text-decoration: none;
-}
-
-.footer-links p {
-    margin-top: 15px;
 }
 
 .footer-links a:hover{

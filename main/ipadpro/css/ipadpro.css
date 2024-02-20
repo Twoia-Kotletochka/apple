@@ -1,0 +1,457 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.ipadpro{
+    background-color: black;
+}
+
+.ipadpro-about{
+    padding: 0 20%;
+}
+
+.ipadpro-nav{
+    display: flex;
+    padding: 0 26%;
+    margin: 0;
+}
+
+.ipadpro-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ipadpro-nav-item{
+    text-align: center;
+    margin-right: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.ipadpro-nav-item-main{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+
+.ipadpro-nav-item-buy{
+    background-color: #2F70AF;
+    padding: 10px 18px;
+    border-radius: 35px;
+}
+
+.about a{
+    color: #8c8c8c;
+}
+
+.ipadpro-nav ul li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.ipadpro p{
+    color:#FFFFFF;
+}
+
+.ipadpro-about{
+    text-align: center;
+}
+
+.ipadpro-about-text30{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.ipadpro-about-text40{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ipadpro-about-text74{
+    font-size: 74px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ipadpro-about-text96{
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ipadpro-about-subname{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient(to right, #BE22FF 40%, #FF289B 50%, #FF981F 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-core-columns{
+    padding: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ipadpro-core-column{
+    flex: 1 1 auto;
+}
+
+.ipadpro-core-main{
+    font-size: 64px;
+    margin: 40px 0 0 0;
+    font-weight: 700;
+}
+
+.cores8{
+    background-image: radial-gradient(circle closest-corner at 110px 70px, #f3ac29 , #f14040);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cores10{
+    background-image: radial-gradient(circle closest-corner at 110px 40px,#f14040, #af53c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cores16{
+    background-image: radial-gradient(circle closest-corner at 150px 30px,#a81790, #af53c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-core-subtext{
+    font-size: 15px;
+    margin: 0 0 90px 0;
+}
+
+.ipadpro-about-films{
+    padding: 0 15%;
+    display: flex;
+}
+
+.ipadpro-about-films-about{
+    font-size: 26px;
+    font-weight: 700;
+    width: 450px;
+    margin-top: 50px;
+}
+
+.ipadpro-display-title{
+    font-size: 96px;
+    font-weight: 700;
+    margin: 150px 0 50px 0;
+    padding-left: 15%;
+}
+
+.ipadpro-display-text{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 38% 0 15%;
+}
+
+.ipadpro-characteristics{
+    margin-top: -120px;
+    padding-left: 15%;
+    padding-right: 25%;
+}
+
+.ipadpro-characteristics-columns{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.ipadpro-characteristics-column{
+    flex: 1 1 auto;
+    margin-bottom: 100px;
+}
+
+.ipadpro-characteristics-column-first{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#3DE85D, #02CECD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-characteristics-column-second{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#03F6F4, #5781FF, #9383FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-characteristics-text{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 60px 0;
+}
+
+.ipadpro-characteristics-diodes{
+    font-size: 74px;
+    font-weight: 700;
+    margin: 0;
+    background-image: radial-gradient(ellipse closest-side at 17% 30%, #03F6F4 20%, #DA31E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-characteristics-diodesinfo{
+    font-size: 26px;
+    font-weight: 700;
+    padding-right: 43%;
+    margin: 70px 0 140px 0;
+}
+
+.ipadpro-characteristics-zones{
+    font-size: 74px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(45deg,#64A1FC 5%, #9D4BFF 15%, #DA31E0 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-characteristics-inches{
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0 0 150px 0;
+}
+
+.ipadpro-display-columns{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 15%;
+    margin-top: -550px;
+}
+
+.ipadpro-display-column{
+    margin-right: 70px;
+}
+
+.ipadpro-display-info-text{
+    font-size: 26px;
+    font-weight: 700;
+    width: 750px;
+}
+
+.ipadpro-display-info-title1{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#FFD860 20%, #E6FC7A 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-display-info-title2{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#E5FE67 25%, #21FDC2 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-display-info-title3{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#14E8AD 20%, #037AFF 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-display-info-title4{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(to right,#16E6F5 10%, #0080FC 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.ipadpro-display-info-subtitle{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.ipadpro-creativity-title{
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 120px;
+    padding-left: 15%;
+}
+
+.ipadpro-creativity-text{
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 15%;
+    padding-right: 40%;
+    margin-bottom: 60px;
+}
+
+.ipadpro-creativity-subtext{
+    margin-left: 65%;
+    margin-top: -220px;
+    margin-bottom: 200px;
+}
+
+.ipadpro-creativity-subtext-title{
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(to right,#D99E69, #D25C86, #8C5AC4 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.ipadpro-about-camera-columns{
+    padding: 0 15%;
+    margin-top: 80px;
+    display: flex;
+}
+
+.ipadpro-about-camera-about{
+    font-size: 26px;
+    font-weight: 700;
+    width: 450px;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.ipadpro-about-camera-title1{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 40px;
+    background-image: linear-gradient(135deg, #e65fc8 20%, #68177c 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-about-camera-title2{
+    font-size: 76px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 40px;
+    background-image: linear-gradient(135deg,#7e488f 25%, #5851c4 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-camera-characteristics-columns{
+    display: flex;
+    padding-right: 10%;
+}
+
+.ipadpro-camera-characteristics-column{
+    margin-top: 150px;
+}
+
+.ipadpro-camera-characteristics-text{
+    font-size: 26px;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.ipadpro-camera-characteristics-subtext-columns{
+    display: flex;
+}
+
+.ipadpro-camera-characteristics-subtext-column{
+    margin-left: 30px;
+}
+
+.ipadpro-camera-characteristics-subtext-title1{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(135deg,#3e7fe0 35%, #3e36b3 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-camera-characteristics-subtext-title2{
+    font-size: 78px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(135deg,#3e36b3 25%, #7d10bd 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ipadpro-camera-characteristics-subtext-text{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ipadpro-camera-examle{
+    display: flex;
+    margin-top: 70px;
+}
+
+.ipadpro-wifi-about{
+    padding-left: 15%;
+}
+
+.ipadpro-wifi-about-title{
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 150px;
+}
+
+.ipadpro-wifi-about-columns{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.ipadpro-wifi-about-column{
+    margin-top: 60px;
+    margin-right: 80px;
+}
+
+.ipadpro-wifi-about-text{
+    font-size: 26px;
+    font-weight: 700;
+    width: 760px;
+    margin: 0;
+}
+
+.ipadpro-wifi-about-subtext{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ipadpro-wifi-about-title2{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(135deg,#564bf3 20%, #142caf 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
