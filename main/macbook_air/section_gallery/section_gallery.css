@@ -39,7 +39,6 @@
 }
 
 .product-details {
-
     text-align: center;
 }
 
@@ -54,8 +53,10 @@
     line-height: 36px;
     letter-spacing: 0em;
     color: black;
+    font-weight: bold;
     margin: 0;
     margin-bottom: 10px;
+    
 }
 
 .product-details h3 {
@@ -64,10 +65,12 @@
     font-weight: 700;
     line-height: 25px;
     letter-spacing: 0em;
+    font-weight: bold;
     text-align: center;
 
     color: black;
     margin: 0;
+    padding-bottom: 0px;
 }
 
 .product-details .chip {
@@ -77,18 +80,17 @@
     margin-bottom: 10px;
 }
 
-.product-details .description {
+/* .product-details .description {
     color: black;
     font-weight: bold;
     margin: 0;
     margin-bottom: 30px;
-    /* font-family: Inter; */
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-}
+} */
 
 .product-details .button {
     color: #0071E3;
@@ -115,5 +117,14 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.section-gallery-a-link{
+    margin: 0;
+    font-size: 25px;
+    color: #2997FF;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
