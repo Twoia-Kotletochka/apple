@@ -1,0 +1,281 @@
+
+.test_header {
+    overflow: hidden;
+    background-color: #272727;
+    padding: 5px 10px;
+  }
+  
+
+  .test_header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+
+  .test_header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+
+  .test_header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .test_header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+
+  .test_header-right {
+    float: right;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .test_header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .test_header-right {
+      float: none;
+    }
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  .iPadBody{
+    font-family: inter;
+    margin:0;
+    background-color: rgb(221, 221, 221);
+    /* display: inline-block; */
+  }
+  .iPad_buttons{
+    background-color: black;
+    text-align: center;
+    display: inline;
+  }
+  .iPad_Button_item{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    align-items: baseline;
+  }
+  .iPad_Button_link{
+    text-decoration: none;
+  }
+  .iPad_Button_items{
+    padding-top: 12px;
+    padding-right: 40px;
+  }
+  
+  .iPad_Button_text{ 
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  .iPad-content-w-image{
+    overflow: hidden;
+    display: flex;
+    background-color: black;
+    padding-top: 70px;
+  }
+  .iPad-content-w-image-text{
+    float: left;
+    color: white;
+    text-align: center;
+    align-self: center;
+    padding-left: 120px;
+    max-width: 275px;
+  }   
+  .iPad-content-w-image-picture{
+    float: left;
+  }
+  .iPad-content-w-image-text-mainText{
+    font-size: 64px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+  }
+  .iPad-content-w-image-text-secondText{
+    font-size: 32px;
+    margin: 0px;
+    width: max-content;
+    float: left;
+    padding-bottom: 10px;
+  }
+  .iPad-content-w-image-text-icon{
+    /* padding-top: 430px; */
+    align-self: center;
+  }
+  .iPad-content-w-image-text-link{
+    color: #0057FF;
+    font-weight: bold;
+  }
+  .iPad-content-w-image-white{
+    background-color: white;
+    text-align: center;
+    
+  }
+  .iPad-content-w-image-white-img-wrap {
+    position: relative;
+  }
+  
+  .iPad-content-w-image-white-img-wrap-text {
+    position: absolute;
+    bottom: 350px;
+    margin-left: 55%;
+    color: black;
+    float: right;
+
+  }
+  .iPad-content-w-image-white-img-wrap-text p{
+   font-size: 32px;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   padding-bottom: 20px;
+  }
+  .iPad-content-w-image-white-img-wrap-text h1{
+    font-size: 56px;
+  }
+  .choose_iPad{
+    margin: 10 30 10 30;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  .iPad-choose-link{
+    color: #0057FF;
+    font-size: 24px;
+    /* font-weight: bold; */
+  }
+  .choose_image{
+    margin-top: 80px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .choose_iPad h1{
+    padding-top: 80px;
+  }
+  
+  .choose_image-ipad h1{
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .choose_image-ipad-htext2{
+    font-size: 24px;
+    margin: 0;
+  }
+  .choose_image-ipad ul{
+    
+    list-style-type: none;
+    /* height: 250px; */
+  }
+  .choose_iPad-ul{
+    align-items: center;
+    margin-top: 80px
+  }
+  .choose_image-ipad-text{
+    font-size: 20px;
+    width: 200px;
+    color: #5C5C5D;
+    margin-top: 40px;
+    
+  }
+  .choose_image-ipad-h{
+    height: 180px;
+  }
+  .choose_image-ipad-con-text{
+    height: 180px;
+  }
+  .choose_image-ipad-hr{
+    margin-top: 40px;
+  }
+  .choose_image-ipad-h2 h1{
+    padding-top: 20px;
+  }
+  .choose_image-ipad-con-text2{
+    max-width: 170px;
+    height: 60px;
+  }
+  .choose_image-ipad-text2{
+    font-size: 18px;
+    color: #5C5C5D;
+   
+  }
+  .need-ipad-h{
+    text-align: center;
+  }
+  .need-ipad-h h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  .need-ipad-con{
+    float: left;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+  }
+  .need-ipad-con-right{
+    margin-left: 15px;
+  }
+  .need-ipad-main-con{
+    display: flex;
+    justify-content: center;
+  }
+  .need-ipad-con h1{
+    font-size: 56px;
+  }
+  .need-ipad-con p{
+    font-size: 32px;
+  }
+  .need-ipad-con a{
+    font-size: 24px;
+  }
+ .need-ipad-main-con-air{
+  background-color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+ }
+ .need-ipad-main-con-air-text{
+  float: left;
+  padding: 40px;
+ }
+ .need-ipad-main-con-air-image{
+  float: left;
+  background-color: #FFFFFF;
+  margin-top: 15px;
+ }
+ .need-ipad-b-con{
+  margin-left: 30px;
+  margin-right: 30px;
+ }
+ .need-ipad-con-text{
+  padding-bottom: 40px;
+ }
+ .need-ipad-main-con-air-text h1{
+  font-size: 56px;
+ }
+ .need-ipad-main-con-air-text p{
+  font-size: 32px;
+  }
+  
